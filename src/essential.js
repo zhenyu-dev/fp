@@ -6,3 +6,7 @@ export const curry = f =>
     }
 
 export const pipe = (...fs) => x => fs.reduce((y, f) => f(y), x)
+
+export const compose = (...fs) => x => fs.reduceRight((y, f) => f(y), x)
+
+export const always = curry((a, ...arr) => a)
