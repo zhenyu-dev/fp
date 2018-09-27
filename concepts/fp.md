@@ -48,8 +48,12 @@ var result = [1, 2, 3].map(x => x + 1).filter(x => x > 2) // [3, 4]
 
 # References
 
+- [Functional-Light-JS](https://github.com/ikcamp/Functional-Light-JS)
 -   [JavaScript 函数式编程 - 佯真愚](https://juejin.im/post/5b7014d5518825612d6441f8)
 -   [JS 函数式编程指南](https://llh911001.gitbooks.io/mostly-adequate-guide-chinese/content/)
+-   [函数式编程术语](https://github.com/shfshanyue/fp-jargon-zh)
 -   [Mostly adequate guide to FP (in javascript)](https://github.com/MostlyAdequate/mostly-adequate-guide)
+-   [Awesome FP JS](https://github.com/stoeffel/awesome-fp-js)
 -   [awesome-functional-programming](https://github.com/xgrommx/awesome-functional-programming)
 -   [Fantasy Land](https://github.com/fantasyland/fantasy-land)
+-   [ramda-adjunct]()
